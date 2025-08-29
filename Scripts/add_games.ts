@@ -98,7 +98,7 @@ async function fetchGameById(id: number): Promise<GameInfo | null> {
         const confirm = await prompts({
             type: "confirm",
             name: "value",
-            message: "Do you want to add this game to the database? (Y/n)",
+            message: `Do you want to add "${game_fetched.name}" to the database? (Y/n)`,
             initial: true,
         });
 
