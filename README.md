@@ -21,8 +21,6 @@
     <a href="#license">License</a>
 </p>
 
-# Scripts :
-
 ## Add Games
 
 TBD.
