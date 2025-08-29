@@ -15,16 +15,23 @@
 <p align="center">
     <a href="#add-games">Add Games Script</a> •
     <a href="#add-mangas">Add Mangas/Manhwas Script</a> •
+    <a href="#add-light-novels">Add Light Novels Script</a> •
     <a href="#installation--setup">Installation & Setup</a> •
     <a href="#known-issues">Known Issues</a> •
     <a href="#license">License</a>
 </p>
+
+# Scripts :
 
 ## Add Games
 
 TBD.
 
 ## Add Mangas
+
+TBD.
+
+## Add Light Novels
 
 TBD.
 
