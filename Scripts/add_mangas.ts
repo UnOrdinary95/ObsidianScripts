@@ -1,10 +1,7 @@
 import * as fs from 'fs-extra';
 const axios = require('axios');
-import * as dotenv from 'dotenv';
 import prompts = require("prompts");
 import * as path from 'path';
-
-dotenv.config({ path: '../../.env' });
 
 const MANGA_COVERS_PATH = "../Attachments/manga_covers";
 const MANGA_PATH = "../Mangas";
