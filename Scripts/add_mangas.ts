@@ -7,7 +7,7 @@ import * as path from 'path';
 dotenv.config({ path: '../../.env' });
 
 const MANGA_COVERS_PATH = "../Attachments/manga_covers";
-const MANGA_PATH = "../Manga";
+const MANGA_PATH = "../Mangas";
 
 // Interface for manga data
 interface MangaInfo {
