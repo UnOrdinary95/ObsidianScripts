@@ -12,6 +12,7 @@
 
 <p align="center">Why TypeScript ? Because I'm currently learning this language and exploring how to work with APIs.</p>
 
+<br>
 <p align="center">
     <a href="#add-games">Add Games</a> •
     <a href="#add-mangas--manhwas">Add Mangas/Manhwas</a> •
