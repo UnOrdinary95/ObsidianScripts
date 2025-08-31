@@ -13,9 +13,10 @@
 <p align="center">Why TypeScript ? Because I'm currently learning this language and exploring how to work with APIs.</p>
 
 <p align="center">
-    <a href="#add-games">Add Games Script</a> •
-    <a href="#add-mangas">Add Mangas/Manhwas Script</a> •
-    <a href="#add-light-novels">Add Light Novels Script</a> •
+    <a href="#add-games">Add Games</a> •
+    <a href="#add-mangas">Add Mangas/Manhwas</a> •
+    <a href="#add-light-novels">Add Light Novels</a> •
+    <a href="#add-books">Add Books</a> •
     <a href="#installation--setup">Installation & Setup</a> •
     <a href="#known-issues">Known Issues</a> •
     <a href="#license">License</a>
@@ -30,6 +31,10 @@ TBD.
 TBD.
 
 ## Add Light Novels
+
+TBD.
+
+## Add Books
 
 TBD.
 
