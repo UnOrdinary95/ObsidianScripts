@@ -14,9 +14,13 @@
 
 <p align="center">
     <a href="#add-games">Add Games</a> •
-    <a href="#add-mangas">Add Mangas/Manhwas</a> •
+    <a href="#add-mangas--manhwas">Add Mangas/Manhwas</a> •
     <a href="#add-light-novels">Add Light Novels</a> •
     <a href="#add-books">Add Books</a> •
+    <a href="#add-movies--series">Add Movies/Series</a>
+</p>
+<br>
+<p align="center">
     <a href="#installation--setup">Installation & Setup</a> •
     <a href="#known-issues">Known Issues</a> •
     <a href="#license">License</a>
@@ -26,7 +30,7 @@
 
 TBD.
 
-## Add Mangas
+## Add Mangas/Manhwas
 
 TBD.
 
@@ -35,6 +39,10 @@ TBD.
 TBD.
 
 ## Add Books
+
+TBD.
+
+## Add Movies/Series
 
 TBD.
 
