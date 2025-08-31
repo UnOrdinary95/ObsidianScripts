@@ -81,19 +81,36 @@ async function fetchMangaById(id: string): Promise<MangaInfo | null> {
 
 // Fetch cover data from Mangadex API by ID
 async function fetchCoverById(id: string): Promise<string | null> {
+    const volumesToCheck = ['1', '1.1', '0']; // priority order
+    const limit = 100; // max number of covers to fetch
+    let offset = 0;
+
     try {
-        const response = await axios.get(`https://api.mangadex.org/cover?manga[]=${id}`);
-        const covers = response.data.data;
+        while (true) {
+            const response = await axios.get(`https://api.mangadex.org/cover?manga[]=${id}&limit=${limit}&offset=${offset}`);
+            const covers = response.data.data;
 
-        if (!covers || covers.length === 0) return null;
+            if (!covers || covers.length === 0) return null;
 
-        const cover_url = `https://uploads.mangadex.org/covers/${id}/${covers[0].attributes.fileName}`;
-        return cover_url;
+            for (const vol of volumesToCheck) {
+                const found = covers.find(c => c.attributes.volume === vol);
+                if (found) {
+                    return `https://uploads.mangadex.org/covers/${id}/${found.attributes.fileName}`;
+                }
+            }
+
+            if (covers.length < limit) break;
+
+            offset += limit;
+        }
+
+        return null;
     } catch (error: any) {
         console.error("Error fetching cover data:", error);
         return null;
     }
 }
+
 
 // Download manga cover
 async function downloadImage(url: string, filename: string) {
