@@ -4,7 +4,7 @@ import prompts = require("prompts");
 import * as path from 'path';
 
 const MANGA_COVERS_PATH = "../Attachments/manga_covers";
-const MANGA_PATH = "../Mangas";
+const MANGA_PATH = "../Library/Mangas";
 
 // Interface for manga data
 interface MangaInfo {

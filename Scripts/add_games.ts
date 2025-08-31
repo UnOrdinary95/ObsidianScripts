@@ -10,7 +10,7 @@ const CLIENT_ID = process.env.CLIENT_ID!;
 const CLIENT_SECRET = process.env.CLIENT_SECRET!;
 const TOKEN_FILE = "./tokenTwitch.json";
 const GAME_COVERS_PATH = "../Attachments/game_covers";
-const GAME_PATH = "../Games";
+const GAME_PATH = "../Library/Games";
 
 // Interface for game data
 interface GameInfo {

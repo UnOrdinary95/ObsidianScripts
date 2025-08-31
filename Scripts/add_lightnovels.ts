@@ -4,7 +4,7 @@ import prompts = require("prompts");
 import * as path from 'path';
 
 const LN_COVERS_PATH = "../Attachments/ln_covers";
-const LN_PATH = "../Light_Novels";
+const LN_PATH = "../Library/Light_Novels";
 
 interface LightNovelInfo {
     title: string;
